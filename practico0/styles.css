@@ -1,0 +1,28 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;/*define una lista de fuentes o familias de fuentes para utilizar en un elemento seleccionado*/
+    line-height: 1.5;/*establece la altura de una casilla remarcada por líneas. Comúnmente se usa para establecer la distancia entre líneas de texto*/
+    margin: 0;/*establece el margen para los cuatro lados*/
+    padding: 0;/*propiedad o relleno que se crea alrededor del contenido de un elemento dentro de los bordes definidos*/
+}
+header{
+    background-color: rgb(117, 138, 255);/*es un propiedad de CSS que define el color de fondo de un elemento*/
+    color: rgb(252, 252, 252);/* selecciona el valor de color de primer plano del contenido de elemento de texto y decoraciones de texto*/
+    text-align: center;/*permite establecer la alineación horizontal de un bloque de texto*/
+    padding: 10px;
+}
+main{
+    padding: 20px;
+}
+article{
+    margin-bottom: 30px;/*es la propiedad de un elemento que establece el espacio requerido en la parte inferior de un elemento*/
+}
+article h2 {
+    border-bottom: 1px solid rgb(230, 233, 235);/*Permite definir de una vez todas las propiedades individuales border-bottom-color , border-bottom-style , y border-bottom-width , las cuales describen el color, estilo y ancho del borde inferior de un elementos*/
+    padding-bottom: 5px;
+}
+article li {
+    margin-bottom: 5px;
+}
+article p {
+    margin: 0;
+}
